@@ -1,9 +1,8 @@
 import 'package:music_app/pages/home_page/home_page_components/pages.dart';
 class TabBarViewComponent extends StatelessWidget {
   const TabBarViewComponent({
-    Key key,
     @required TabController tabController,
-  }) : _tabController = tabController, super(key: key);
+  }) : _tabController = tabController;
   final TabController _tabController;
   @override
   Widget build(BuildContext context) {

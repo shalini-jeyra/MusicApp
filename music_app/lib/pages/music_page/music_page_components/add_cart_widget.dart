@@ -1,4 +1,5 @@
 import 'package:music_app/pages/music_page/music_page_components/pages.dart';
+import 'package:music_app/styles/styles.dart';
 class AddCartWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -19,10 +20,7 @@ class AddCartWidget extends StatelessWidget {
       child: Center(
         child: Text(
           '+ Add to cart',
-          style: TextStyle(
-              color: Colors.white,
-              fontSize: 10.0,
-              fontWeight: FontWeight.bold),
+          style: ButtonFont.secondaryFont,
         ),
       ),
     );

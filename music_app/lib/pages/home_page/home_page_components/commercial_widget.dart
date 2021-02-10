@@ -1,5 +1,6 @@
 import 'package:music_app/pages/music_page/music_page_components/pages.dart';
 import 'package:music_app/pages/music_page/music_page.dart';
+import 'package:music_app/styles/styles.dart';
 class Commercial extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -14,7 +15,7 @@ class Commercial extends StatelessWidget {
         width: 160,
         decoration: BoxDecoration(
           shape: BoxShape.circle,
-          color: Colors.white,
+          color: TextColor.primaryColor,
         ),
       ),
     );

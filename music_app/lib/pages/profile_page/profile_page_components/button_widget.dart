@@ -1,4 +1,5 @@
 import 'package:music_app/pages/profile_page/profile_page_components/pages.dart';
+import 'package:music_app/styles/styles.dart';
 class ButtonWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -12,7 +13,7 @@ class ButtonWidget extends StatelessWidget {
             color: Color(0xffF8943D),
             child: Text(
               'Subscribe',
-              style: TextStyle(fontSize: 14, color: Colors.black),
+              style: ButtonFont.ternaryFont,
             ),
             onPressed: () {},
             shape: RoundedRectangleBorder(
@@ -28,7 +29,7 @@ class ButtonWidget extends StatelessWidget {
             color: Colors.black,
             child: Text(
               'Start a chat',
-              style: TextStyle(fontSize: 14, color: Colors.white),
+              style: ButtonFont.primaryFont,
             ),
             onPressed: () {},
             shape: RoundedRectangleBorder(

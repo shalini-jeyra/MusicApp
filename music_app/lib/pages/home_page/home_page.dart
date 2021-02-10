@@ -1,4 +1,4 @@
-import 'package:music_app/styles/color.dart';
+import 'package:music_app/styles/styles.dart';
 import 'package:music_app/pages/pages.dart';
 import 'package:music_app/pages/home_page/home_page_components/pages.dart';
 class MyHomePage extends StatefulWidget {

@@ -1,4 +1,5 @@
 import 'package:music_app/pages/profile_page/profile_page_components/pages.dart';
+import 'package:music_app/styles/styles.dart';
 class TextWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -13,8 +14,7 @@ class TextWidget extends StatelessWidget {
             ),
             Text(
               'Tracks',
-              style: TextStyle(
-                  color: Colors.white54, fontSize: 12),
+              style:ListTitle.secondaryTitle,
             )
           ],
         ),
@@ -26,8 +26,7 @@ class TextWidget extends StatelessWidget {
             ),
             Text(
               'Albums',
-              style: TextStyle(
-                  color: Colors.white54, fontSize: 12),
+              style: ListTitle.secondaryTitle,
             )
           ],
         ),
@@ -39,8 +38,7 @@ class TextWidget extends StatelessWidget {
             ),
             Text(
               'Subscribers',
-              style: TextStyle(
-                  color: Colors.white54, fontSize: 12),
+              style:ListTitle.secondaryTitle,
             )
           ],
         ),

@@ -1,15 +1,12 @@
 import 'package:music_app/pages/music_page/music_page_components/pages.dart';
+import 'package:music_app/styles/styles.dart';
 class ListTileWidget extends StatelessWidget {
-  const ListTileWidget({
-    Key key,
-  }) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return ListTile(
       title: Text(
         'Insomnia',
-        style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),                
+        style: ListTitle.primaryTitle,                
       ),
       subtitle: Wrap(children: [
         Text('Valetudo Beats'),

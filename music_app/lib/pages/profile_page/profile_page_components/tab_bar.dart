@@ -1,9 +1,8 @@
 import 'package:music_app/pages/profile_page/profile_page_components/pages.dart';
 class TabBarWidget extends StatelessWidget {
   const TabBarWidget({
-    Key key,
     @required TabController tabController,
-  }) : _tabController = tabController, super(key: key);
+  }) : _tabController = tabController;
   final TabController _tabController;
   @override
   Widget build(BuildContext context) {

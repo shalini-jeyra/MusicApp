@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:music_app/styles/color.dart';
+import 'package:music_app/styles/styles.dart';
 class TextFormFieldWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -19,10 +19,7 @@ class TextFormFieldWidget extends StatelessWidget {
       decoration: InputDecoration(
         border: InputBorder.none,
         hintText: 'Search',
-        hintStyle: TextStyle(
-          fontSize: 14,
-          color: TextColor.secondaryColor,
-        ),
+        hintStyle:HintFonts.primaryHint,
         icon: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Icon(

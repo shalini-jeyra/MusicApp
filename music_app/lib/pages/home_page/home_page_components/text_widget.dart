@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:music_app/styles/styles.dart';
 class TextWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -10,12 +11,9 @@ class TextWidget extends StatelessWidget {
           width: 260,
           child: Text(
             'Find the best music for your banger',
-            style: TextStyle(
-              fontWeight: FontWeight.normal,
-              fontSize: 22,
+            style: HeaderFonts.primaryHeader
             ),
           ),
-        ),
       ],
     );
   }

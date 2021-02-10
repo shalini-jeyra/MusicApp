@@ -1,4 +1,5 @@
 import 'package:music_app/pages/profile_page/profile_page_components/pages.dart';
+import 'package:music_app/styles/styles.dart';
 
 class TextFormWidget extends StatelessWidget {
   @override
@@ -25,16 +26,13 @@ class TextFormWidget extends StatelessWidget {
             child: Center(
               child: Text(
                 'PRO SELLER',
-                style: TextStyle(
-                    color: Color(0xffF7933D),
-                    fontSize: 10.0,
-                    fontWeight: FontWeight.bold),
+                style: MusicFont.secondaryFont,
               ),
             ),
           ),
           Text(
             'Valetudo Beats',
-            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+            style:MusicFont.primaryFont,
           ),
           SizedBox(
             height: 8,
