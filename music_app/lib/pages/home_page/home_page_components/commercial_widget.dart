@@ -13,10 +13,7 @@ class Commercial extends StatelessWidget {
       child: Container(
         height: 160,
         width: 160,
-        decoration: BoxDecoration(
-          shape: BoxShape.circle,
-          color: TextColor.primaryColor,
-        ),
+        decoration:BoxBorderDecoration.primaryDecoration
       ),
     );
   }

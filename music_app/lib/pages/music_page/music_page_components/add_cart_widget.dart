@@ -9,14 +9,7 @@ class AddCartWidget extends StatelessWidget {
         horizontal: 0,
         vertical: 20,
       ),
-      decoration: BoxDecoration(
-          border: Border.all(
-            color: Colors.white,
-            width: 1,
-          ),
-          borderRadius: BorderRadius.all(
-            Radius.circular(16.0),
-          )),
+      decoration:BoxBorderDecoration.secondaryDecoration,
       child: Center(
         child: Text(
           '+ Add to cart',

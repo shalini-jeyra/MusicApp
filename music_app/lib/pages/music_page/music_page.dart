@@ -1,5 +1,6 @@
 import 'dart:ui';
 import 'package:music_app/pages/music_page/music_page_components/pages.dart';
+import 'package:music_app/styles/styles.dart';
 class MusicPage extends StatelessWidget{
   @override
   Widget build(BuildContext context){
@@ -17,10 +18,7 @@ class MusicPage extends StatelessWidget{
                 margin: EdgeInsets.symmetric(horizontal: 30, vertical: 30),
                 height: 250,
                 width: 250,
-                decoration: BoxDecoration(
-                  shape: BoxShape.circle,
-                  color: Colors.white,
-                ),
+                decoration: BoxBorderDecoration.primaryDecoration
               ),
               ListTileWidget(),
              SliderWidget(),
