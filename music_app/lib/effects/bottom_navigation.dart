@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:music_app/pages/pages.dart';
 
-import 'package:music_app/NavigatorPage.dart';
-import 'package:music_app/ProfilePage.dart';
-import 'package:music_app/homepage.dart';
-import 'package:music_app/music.dart';
 
 class BottomNavigation extends StatefulWidget {
   @override
@@ -16,7 +13,7 @@ class _BottomNavigationState extends State<BottomNavigation>
   List<Widget> _widgetOptions = <Widget>[
     MyHomePage(),
     NavigatorPage(),
-    MusicPage(),
+    ChatPage(),
     ProfilePage(),
     
   ];
