@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:music_app/bottomNavi.dart';
+import 'package:music_app/effects/bottom_navigation.dart';
 
 void main() {
   runApp(MyApp());
